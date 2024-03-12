@@ -6,19 +6,19 @@ const total = document.getElementById('total')
 
 
 // state on data
-const productPrice = 9000;
+const productPrice = 4000;
 let totalPrice = 0;
 
 
 // set product price initially
 
 price.innerText = `৳ ${productPrice}`;
-total.innerText = `Total: ৳ 0 `;
+total.innerText = 'Total: ৳ 0';
 
 button.addEventListener('click', () => {
     totalPrice += productPrice;
 
     // update UI
-    total.innerText = `total: ৳ ${productPrice}`;
+    total.innerText = `৳ ${totalPrice}`;
 
 })
